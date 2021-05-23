@@ -1,0 +1,133 @@
+ .container-fluid{
+    display: flex;
+    flex-direction: row;
+    height:767px;
+    width: 100%;
+}
+.leftDiv{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width:285px;
+   
+  }
+  .div1{
+    height:160px;
+    width:285px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+
+  }
+  .logoBorder{
+    border: 3px solid skyblue;
+    height:46px;
+    width:143px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+  .logo1{
+    font-family: verdana, arial, helvetica;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    color: #32c5ff;
+    height:32px;
+   width: 66px; 
+    }
+  .div2{
+      height:608px;
+      width: 285px;
+     
+  } 
+  .image{
+    height: 100%;
+    width: 393px;
+    
+   }
+
+  .heading{
+      margin-top:200px;
+  }
+  .bell{
+    width: 30px;
+  height: 40px;
+  border: solid 1.9px #2c2c2c;
+  margin-top:5px;
+  display:flex;
+}
+  .money{
+    display: flex;
+  }
+  
+  .packinglist {
+    width: 129px;
+  height: 113px;
+  margin: 93px 10px 10px 1px;
+  padding: 16px 20px 13px;
+  border-radius: 2px;
+  box-shadow: 0 0 1px 0 rgba(127, 127, 127, 0.47);
+  border: solid 1.7px #7840e1;
+  background-color: #ab7fff;
+  }
+  .trolley1{
+    width: 129px;
+    height: 113px;
+    margin: 93px 10px 10px;
+    padding: 18px 30px 13px;
+    border-radius: 2px;
+    border: solid 0.7px #e5e8ee;
+    background-color: #ff7676;
+  
+  }
+  .box{
+    width: 129px;
+    height: 113px;
+    margin: 93px 115px 10px 10px;
+    padding: 17px 34px 13px 35px;
+    border-radius: 2px;
+    border: solid 0.7px #e5e8ee;
+    background-color: #21cfa2;
+    
+  }
+ 
+  
+  .bus{
+    width: 46px;
+   height: 32px;
+  
+  
+   
+ 
+ }
+ .row3{
+   display: flex;
+ }
+   .Delivery{
+    width: 204px;
+    height: 57px;
+    margin: 10px 0 0;
+    padding: 12px 45.5px 13px 14px;
+    background-color: #218edb;
+    margin-right: 20px;
+   }
+.warehouse{
+    width: 204px;
+    height: 57px;
+    margin: 10px 0 0;
+    padding: 12px 45.5px 13px 14px;
+    background-color: #218edb;
+    display: flex;
+    
+}
+  
+
+  
+
+
+
+  
+  
+  
+   
