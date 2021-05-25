@@ -41,7 +41,7 @@ class Home extends Component {
           <div className="row4">
             <div className="packinglist">
               <img src="img/packing-list.png" />
-              <span className="place-An-order">PLACE AN ORDER</span>
+              <span className="place">PLACE AN ORDER</span>
             </div>
 
             <div className="trolley1">

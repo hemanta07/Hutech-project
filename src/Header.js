@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Login from "./Login";
 import Home from "./Home";
-import Theme from "./Theme";
+import Listing from "./Listing";
 import { Link } from "react-router-dom";
 import './index.css';
 
@@ -22,7 +22,7 @@ class Header extends Component {
           </li>
           <li>
             <div>
-              <Link to="/theme" className="pagelink">Theme</Link>
+              <Link to="/listing" className="pagelink">Listing</Link>
             </div>
           </li>
           
