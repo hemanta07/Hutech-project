@@ -4,7 +4,7 @@ import "./home.css";
 class Home extends Component {
   render() {
     return (
-      <div className="container-fluid  ">
+      <div className="container-fluid ">
         <div className=" leftDiv col-md-4">
           <div className="div1">
             <div className="logoBorder">
@@ -15,7 +15,11 @@ class Home extends Component {
             <img src="img/group@2x.png" className="image" />
           </div>
         </div>
-        <div className="div12">
+       
+        {/* -------------------------------------------------------- */}
+        <div className=" rightDiv col-md-8">
+
+           <div className="div12">
           <div className="bell">
             <img src="img/bell.png" />
           </div>
@@ -34,7 +38,6 @@ class Home extends Component {
             <span>BR</span>
             </div>
         </div>
-        <div className=" rightDiv col-md-8">
           <h3 className="heading "> Welcome to </h3>
           <h4>Con5 Online Ordering System.</h4>
 
@@ -55,7 +58,7 @@ class Home extends Component {
           </div>
 
           <div className="row5">
-            <div className="RECTANGLE">
+            <div className="RECTANGLE ">
               <img src="img/delivery.png" />
               <span className="On-site-Delivery">On Site Delivery</span>
             </div>
@@ -72,7 +75,7 @@ class Home extends Component {
             <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
           </div>
           </div>
-
+             
           <footer className="footer1 ">
             <p>
               <span className="footerline">
@@ -81,7 +84,8 @@ class Home extends Component {
             </p>
           </footer>
         </div>
-      </div>
+        </div>
+      
     );
   }
 }

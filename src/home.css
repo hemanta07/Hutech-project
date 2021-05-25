@@ -42,7 +42,7 @@
    width: 66px; 
     }
   .div2{
-      height:608px;
+      height:788px;
       width: 285px;
      
   } 
@@ -255,27 +255,27 @@
 }
 
 .footer1{
-width:100%;
-height: 35px;
-background-color: #4b6abd;
-position:absolute;
-bottom:1px;
-left:-215px;
-display:flex;
-justify-content:center;
-align-items:center;
+ 
+    width: 743px;
+    height: 34px;
+  
+    padding: 10px 276px 10px 285px;
+    background-color: #4b6abd;
+    margin-top: 90px;
+   display:left;
+    
+  }
 
-
-
-
-}
 .footerline{
   width: 182px;
   height: 14px;
   font-family: OpenSans;
   font-size: 10px;
   font-weight: 600;
- 
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
   text-align: center;
   color: #efefef;
 }
