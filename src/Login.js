@@ -44,14 +44,14 @@ class Login extends Component {
 
               <div>
                 <input type="checkbox" className=" check2" />
-                <b className="check">Keep Me Signed In </b>
+                <b className="check">Keep Me Signed In ? </b>
 
                 <a href="#" className="link">
                   Forgot Password
                 </a>
               </div>
 
-              <button class=" form-control btn btn-primary " >Login</button>
+              <button class=" btn btn-primary " >Login</button>
               <p className=" text-center">
                 Don't have a account ? <b>SignUp</b>
               </p>
